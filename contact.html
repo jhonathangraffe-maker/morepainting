@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact MORE Painting & Construction Services for painting, drywall, and pressure washing.">
+    <title>Contact | MORE Painting & Construction Services</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="MORE Painting & Construction Services home">
+        <span class="brand-mark">M</span>
+        <span class="brand-text"><strong>MORE</strong><span>Painting & Construction Services</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <a class="header-call" href="tel:8138331303">813-833-1303</a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Contact</p>
+        <h1>Ready for a cleaner, sharper finish?</h1>
+        <p>Call MORE Painting & Construction Services to discuss interior painting, exterior painting, drywall, or pressure washing.</p>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-panel">
+          <p class="eyebrow">Call today</p>
+          <h2>813-833-1303</h2>
+          <p>Reach out to schedule service, ask about availability, or talk through the details of your project.</p>
+          <a class="button button-primary" href="tel:8138331303">Call Now</a>
+        </div>
+        <form class="contact-form" name="contact" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" autocomplete="tel" required>
+          </label>
+          <label>
+            Service
+            <select name="service" required>
+              <option value="">Select a service</option>
+              <option>Interior Painting</option>
+              <option>Exterior Painting</option>
+              <option>Drywall</option>
+              <option>Pressure Washing</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>MORE Painting & Construction Services</strong><p>Interior Painting · Exterior Painting · Drywall · Pressure Washing</p></div>
+      <a href="tel:8138331303">813-833-1303</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
