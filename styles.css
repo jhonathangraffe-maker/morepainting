@@ -576,20 +576,21 @@ h3 {
 .experience-badge {
   position: absolute;
   left: 20px;
-  bottom: 88px;
+  bottom: 112px;
   display: grid;
-  min-width: 170px;
-  padding: 18px 20px;
+  min-width: 148px;
+  padding: 14px 16px;
   color: var(--white);
   background: var(--red);
 }
 
 .experience-badge strong {
-  font-size: 46px;
+  font-size: 38px;
   line-height: 1;
 }
 
 .experience-badge span {
+  font-size: 14px;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -1093,6 +1094,22 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  .experience-badge {
+    left: 14px;
+    bottom: 126px;
+    min-width: 126px;
+    padding: 10px 12px;
+  }
+
+  .experience-badge strong {
+    font-size: 30px;
+  }
+
+  .experience-badge span {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+
   .top-banner img,
   .hero-banner img {
     width: 100%;
